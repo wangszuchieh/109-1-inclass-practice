@@ -1,0 +1,34 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "CJ917"
+date: "2020-09-30"
+output: output_format
+params:
+  id: "410973082"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+```{r}
+```
+
+```{r}
+a <- 15 # 變數設定
+b <- a # 呼叫a的值，用來設定變數b的值，相當於 b <- 15
+c <- y
+
+```
+
+
+
+
+
+
+
+
+
+
+
