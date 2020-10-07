@@ -1,0 +1,84 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "??????"
+date: "2020-10-07"
+output: output_format
+params:
+  id: "410973082"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+
+```
+```{r}
+```
+```{r}
+a <- 15 # 變數設定
+b <- a # 呼叫a的值，用來設定變數b的值，相當於 b <- 15
+y<-22
+c <- y
+
+```
+```{r}
+myName <- "Mary"
+```
+
+```{r}
+length(myName) # 查看物件本身代表幾個值。
+```
+
+
+```{r}
+num1 <- 5
+vNum1 <- c(2,5)
+vNum2 <- c(2, num1)
+```
+
+```{r}
+heightsOftheEntireClassroom <- c()
+
+heightsOftheEntireClassroom2 <- c()
+```
+
+```{r}
+heightOfAStudentComingInsideTheClassroom <- sample(165:200,1)
+```
+
+```{r}
+'小明說："明天不用上課。"'
+```
+```{r}
+dialogue <- c('小明說："明天不用上課。"',
+               '小花說："真的嗎？"')
+
+dialogue # 顯示原始值的內容（含輸入時的引號）
+cat(dialogue, sep="\n") # 顯示給人類看（含存出來）的值，sep="\n", 不同元素換行陳列。
+writeLines(dialogue, "conversation.txt") # cat顯示的正是存出來樣貌。
+```
+
+```{r}
+context <- "...." # 請依下列情境輸入
+cat(context)
+```
+
+```{r}
+cat("老師說換行要寫\\n, \\是escape的意思")
+cat("老師說換行要寫\'\\n\', \"\\\"是escape的意思")
+```
+
+```{r}
+cat(dialogue, sep="\n")
+cat(
+  dialogue, sep="\n"
+)
+cat(
+  dialogue,
+  sep="\n"
+)
+```
