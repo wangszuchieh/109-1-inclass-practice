@@ -48,6 +48,11 @@ class(majors10_factor)
 
 ```
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, eval=F)
+library(lubridate); library(jsonlite); library(readr)
+```
+
 
 
 
